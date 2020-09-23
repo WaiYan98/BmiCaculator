@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rootBackground"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Your Result"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/result_txt"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/cardViewBackground"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_result_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/result_margin"
+                android:text="NORMAL"
+                android:textColor="#5BA37D"
+                android:textSize="@dimen/bmi_txt_result" />
+
+            <TextView
+                android:id="@+id/txt_result_bmi_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/bmi_num"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_result_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/result_margin"
+                android:gravity="center_horizontal"
+                android:text="You have a normal body weight.You have a normal body weight"
+                android:textColor="#DEDEE8"
+                android:textSize="@dimen/bmi_txt_result" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good luck."
+                android:textColor="#DEDEE8"
+                android:textSize="@dimen/bmi_txt_result" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_re_caculate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E83D66"
+        android:text="RE-Caculate"
+        android:textColor="@color/numColor"
+        android:textSize="@dimen/caculate_txt"
+        android:textStyle="bold" />
+
+</LinearLayout>

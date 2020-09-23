@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">40sp</dimen>
+    <dimen name="num_txt_size">56sp</dimen>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="caculate_txt">32sp</dimen>
+    <dimen name="margin_bot">24dp</dimen>
+    <dimen name="img_width">90dp</dimen>
+    <dimen name="img_height">90dp</dimen>
+    <dimen name="btn_width">60dp</dimen>
+    <dimen name="btn_height">60dp</dimen>
+    <dimen name="result_txt">80sp</dimen>
+    <dimen name="bmi_num">80sp</dimen>
+    <dimen name="result_margin">80dp</dimen>
+    <dimen name="bmi_txt_result">24sp</dimen>
+    <dimen name="unit_text_size">24sp</dimen>
+</resources>
